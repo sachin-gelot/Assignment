@@ -5,20 +5,22 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.section-wrapper {
+.section-2 {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
 }
 
-.last-part {
-    display: flex;
-    justify-content: space-between;
-}
+
 
 span {
     border: 1px solid black;
     padding: 1px 6px;
+    
+}
+span:hover{
+   background-color: rgb(215, 211, 211);
+    
 }
 
 .item-1 {
@@ -29,18 +31,20 @@ span {
     border: 2px solid black;
 }
 
-.first-part {
+.div-1 {
     text-align: center;
     height: 160px;
     line-height: 160px;
     color: white;
     background-color: #202020;
 }
+.div-2 {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0;
+}
 
 .content {
     padding: 30px;
 }
 
-.last-part {
-    margin: 15px 0;
-}

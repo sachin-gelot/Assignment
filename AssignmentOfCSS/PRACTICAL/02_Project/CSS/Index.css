@@ -9,7 +9,7 @@ body{
     background-color: bisque;
 }
 
-#header-wrapper {
+#header {
     width: 100%;
     height: 100vh;
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../IMG/last3.jpg) no-repeat center/cover;
@@ -73,30 +73,17 @@ nav ul li a:hover {
     color: #e74c3c;
 }
 
-nav ul li a:hover::after {
-    width: 100%;
-    color: #e74c3c;
-}
-
-.active::after {
-    content: "";
-    display: block;
-    width: 100%;
-    height: 2.5px;
-    background-color: #e74c3c;
-    
-}
-.bars i {
+.des i {
     font-size: 30px;
     color: white;
     display: none;
 }
 
-.active {
+.mode {
     color: #e74c3c;
 }
 
-.welcome-part {
+.first-div {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -105,13 +92,13 @@ nav ul li a:hover::after {
     transform: translate(-50%, -50%);
 }
 
-.welcome-part h2 {
+.first-div h2 {
     letter-spacing: 1px;
     color: #f4f5f9;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.welcome-part h1 {
+.first-div h1 {
     margin: 20px 0;
     font-size: 60px;
     letter-spacing: 7px;
@@ -119,7 +106,7 @@ nav ul li a:hover::after {
     font-family: "Open Sans";
 }
 
-.welcome-part p {
+.first-div p {
     margin: 20px 0;
     line-height: 30px;
     text-align: center;
@@ -157,7 +144,7 @@ nav ul li a:hover::after {
     display: flex;
 }
 
-.dot {
+.line {
     display: inline-block;
     font-size: 20px;
     position: relative;
@@ -165,7 +152,7 @@ nav ul li a:hover::after {
     width: 50%;
 }
 
-.dot::after {
+.line::after {
     content: "";
     width: 43%;
     height: 2px;
@@ -175,7 +162,7 @@ nav ul li a:hover::after {
     display: block;
 }
 
-.dot::before {
+.line::before {
     content: "";
     width: 43%;
     height: 2px;
@@ -206,6 +193,9 @@ nav ul li a:hover::after {
 
 .grater-than:hover {
     opacity: .8;
+    background-color: #e74c3c;
+
+    
 }
 
 .down:hover {
@@ -216,12 +206,14 @@ nav ul li a:hover::after {
 
 .less-than {
     top: 40%;
-    background-color: gray;
+        background-color: gray;
+
     left: 20px;
 }
 
 .grater-than {
-    background-color: #e74c3c;
+    background-color: gray;
+
     right: 20px;
     top: 40%;
 }
@@ -257,18 +249,6 @@ nav ul li a:hover::after {
     margin: 15px 0;
     transition: 0.5s;
     cursor: pointer;
-}
-
-.col-1 h3::after {
-    content: "";
-    width: 50px;
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%);
-    margin-top: 10px;
-    background-color: black;
-    height: 2px;
-    display: block;
 }
 
 .col-1 {

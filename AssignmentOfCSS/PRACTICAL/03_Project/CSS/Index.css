@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 
-.section-wrapper {
+.section-1 {
     position: relative;
     margin: 30px;
     height: 600px;
@@ -13,7 +13,7 @@
 
 }
 
-.center-part {
+.div-1 {
     color: white;
     text-align: center;
     text-transform: uppercase;
@@ -23,7 +23,7 @@
     transform: translate(-50%, -20%);
 }
 
-.center-part p {
+.div-1 p {
     margin: 10px 0;
     letter-spacing: 1px;
 }
@@ -57,56 +57,56 @@ h5::before {
     background-color: antiquewhite;
 }
 
-.wave-img img {
+.console img {
     width: 100%;
     position: absolute;
     bottom: 0;
 }
 
 .line {
-top: 10px;
+top: 100px;
 }
 
-.photo {
+.image {
     width: 50px;
     position: absolute;
     height: 50px;
 }
 
-.photo img {
+.image img {
     border-radius: 50%;
     border: 3px solid #e74c3c;
     width: 100%;
 }
 
-.photo-2 img {
+.image-2 img {
     box-shadow: 0 0 5px 5px black;
 }
 
-.photo-1 {
+.image-1 {
     bottom: 160px;
     left: 200px;
 }
 
-.photo-2 {
+.image-2 {
     bottom: 220px;
     left: 480px;
     width: 60px;
     height: 60px;
 }
 
-.photo-3 {
+.image-3 {
     bottom: 230px;
     right: 700px;
 }
 
-.photo-4 {
-    bottom: 240px;
+.image-4 {
+    bottom: 200px;
     right: 450px;
 }
 
-.photo-5 {
-    bottom: 350px;
+.image-5 {
+    bottom: 280px;
     right: 200px;
 }
 
